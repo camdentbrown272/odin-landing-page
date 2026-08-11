@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Roboto-em';
+  src: url(./fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf) format('truetype');
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.section-one {
+  background-color: #1F2937;
+  
+}
+
+.logo {
+  color: #f9faf8;
+}
+
+/*FLEXBOX SECTION ONE*/
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  flex-grow: ;
+  padding: 
+}
