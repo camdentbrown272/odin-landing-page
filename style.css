@@ -55,7 +55,40 @@ p {
 
 /* THIS IS THE CSS FOR SECTION THREE*/
 
+.section-three {
+  background-color: lightgray;
+  height: 300px;
+}
 
+.quote {
+  font-size: 23px;
+}
+
+/* FINAL SECTION CSS*/
+
+.container-four {
+  background-color: rgb(0, 60, 255);
+  width: 800px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.section-four {
+  height: 250px;
+  color: white;
+}
+
+.text-big {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.button {
+  background: none;
+  border: solid white 2px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
 
 /*FLEXBOX SECTION ONE*/
 
@@ -131,7 +164,6 @@ a {
 
 .boxText-two {
   display: flex;
-  
   margin-top: auto;
   flex-shrink: 0;
   gap: 50px;
@@ -149,3 +181,32 @@ p {
 
 /* THIS IS THE FLEXBOX FOR SECTION THREE*/
 
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  width: 500px;
+}
+
+.author {
+  align-self: flex-end;
+  width: 640px;
+}
+
+/* FINAL SECTION LETS GOOOOO*/
+
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
