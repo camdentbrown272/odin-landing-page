@@ -14,6 +14,8 @@
   font-display: swap;
 }
 
+/* THIS IS THE CSS FOR FIRST SECTION*/
+
 .signup {
   width: 85px;
   background-color: lightblue;
@@ -33,6 +35,15 @@ body {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+/* THIS IS CSS FOR SECOND SECTION*/
+
+.box {
+  border: solid skyblue 4px;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
 }
 
 /*FLEXBOX SECTION ONE*/
@@ -85,4 +96,29 @@ a {
 .placeholder {
   background-color: gray;
   padding:100px 150px;
+}
+
+/* THIS IS THE FLEXBOX FOR THE SECOND SECTION */
+
+.box {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.boxes {
+  display: flex;
+  width: 50%;
+  gap: 35px;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxText-two {
+  display: flex;
+  width: 100px;
+  margin-top: auto;
 }
