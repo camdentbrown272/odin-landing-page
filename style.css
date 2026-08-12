@@ -14,16 +14,24 @@
   font-display: swap;
 }
 
+.signup {
+  width: 85px;
+  background-color: lightblue;
+  border-radius: 8px;
+  height: 30px
+}
+
 body {
   font-family: 'Roboto';
 }
 
 .section-one {
   background-color: #1F2937;
-  
+  color: #f9faf8;
 }
 
-.logo {
+a {
+  text-decoration: none;
   color: #f9faf8;
 }
 
@@ -32,7 +40,10 @@ body {
 .section-one {
   display: flex;
   flex-direction: column;
-
+  padding-right: 150px;
+  padding-left: 150px;
+  width: auto;
+  height: 440px;
 }
 
 .header {
@@ -43,6 +54,35 @@ body {
 
 .logo {
   display: flex;
-  flex-grow: ;
-  padding: 
+  flex-grow: 2;
+}
+
+a {
+  display: flex; 
+  margin: 15px;
+}
+
+.hero-main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  margin-bottom: 0;
+}
+
+.awesome {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+#middle-one {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.placeholder {
+  background-color: gray;
+  padding:100px 150px;
 }
